@@ -2,7 +2,7 @@ import subprocess
 import time
 
 
-"""The program waits for 30 minutes, and then opens a 5-minute break script."""
+"""The program waits for 25 minutes, and then opens a 5-minute break script."""
 """Additionally, the program can display the remaining time."""
 i = 0
 while True:
