@@ -8,7 +8,7 @@ i = 0
 while True:
     time.sleep(1)
     i += 1
-    if i == 30*60:
+    if i == 25*60:
         # The program executes the 'breakgui' script, and then resets the timer.
         subprocess.run(["python", "breakgui.py"])
         i = 0
